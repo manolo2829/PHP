@@ -35,5 +35,28 @@
     $objPersona = new Persona("Oscar", 20, 1.89); 
     $objPersona -> imprimirPersona();
 
+    /* ---------------------------- METODOS ESTATICOS --------------------------- */
+
+    class UnaClase{
+
+        // Son los metodos a los que se puede acceder sin crear un objeto, es decir, se puede acceder llamando a la clase sola
+
+        public static function unMetodo(){
+
+            echo "Hola soy un metodo estatico";
+
+        }
+
+
+    }
+
+    echo"<br/>";
+    $obj=new UnaClase();
+    $obj->unMetodo();
+    echo"<br/>";
+
+    // Asi se llama un metodo estatico
+    UnaClase::unMetodo();
+
 
 ?>
