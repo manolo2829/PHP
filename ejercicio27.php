@@ -33,6 +33,8 @@
             print_r($foto['nombre']);
         }
 
+        echo"<br/>";
+
         echo"Conexion establecida";
 
     } catch (PDOException $error) {
