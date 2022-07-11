@@ -4,7 +4,7 @@
 
     $servidor = "localhost"; // Localhost se indentifica como la direccion 127.0.0.1;
 
-    $usuario = "root"; // Tambien necesitamos un usuario;
+    $usuario = "root"; // Tambien necesitamos un usuario; 
 
     $contraseña = "";
     
